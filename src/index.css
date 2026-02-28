@@ -1,1 +1,46 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 34 33 33;
+    --foreground: 242 237 232;
+    --radius: 0.5rem;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-charcoal text-sand antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-md bg-white/5 border border-white/10;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+
+  .fade-in {
+    @apply opacity-0 animate-fadeIn;
+  }
+
+  .slide-in {
+    @apply opacity-0 animate-slideIn;
+  }
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
