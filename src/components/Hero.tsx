@@ -6,8 +6,8 @@ export const Hero = () => {
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/lovable-uploads/6131b870-f07f-4319-bd4c-2ecd04881339.png"
-          alt="Kigali Convention Center at night"
+          src="https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1920&h=1080&fit=crop"
+          alt="Rwanda landscape"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/50 backdrop-blur-sm"></div>
