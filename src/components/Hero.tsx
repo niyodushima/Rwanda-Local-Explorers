@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./ui/Button";  // ✅ default import matches default export
+import Button from "./ui/Button";  // default import matches Button.tsx
 
-export const Hero = () => {
+export default function Hero() {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -29,4 +29,4 @@ export const Hero = () => {
       </div>
     </div>
   );
-};
+}
