@@ -1,5 +1,5 @@
-
-import { Button } from "./ui/Button";
+import React from "react";
+import Button from "./ui/Button";  // ✅ default import matches default export
 
 export const Hero = () => {
   return (
@@ -21,7 +21,7 @@ export const Hero = () => {
           Authentic local experiences with expert guidance at unbeatable prices
         </p>
         <Button 
-          onClick={() => document.getElementById('tours')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => document.getElementById("tours")?.scrollIntoView({ behavior: "smooth" })}
           className="bg-primary hover:bg-primary-light text-sand px-8 py-6 text-lg transition-all duration-300"
         >
           Explore Tours
@@ -30,4 +30,3 @@ export const Hero = () => {
     </div>
   );
 };
-
