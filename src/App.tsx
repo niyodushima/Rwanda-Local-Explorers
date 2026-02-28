@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero";   // ✅ default import matches default export
 import TourBookingForm from "./components/TourBookingForm";
 import Footer from "./components/Footer";
 
