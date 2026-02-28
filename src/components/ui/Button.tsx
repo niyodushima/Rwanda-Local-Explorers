@@ -6,15 +6,13 @@ type ButtonProps = {
   className?: string;
 };
 
-function Button({ children, onClick, className }: ButtonProps) {
+export default function Button({ children, onClick, className }: ButtonProps) {
   return (
     <button
       onClick={onClick}
-      className={`bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 ${className || ""}`}
+      className={`bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition ${className || ""}`}
     >
       {children}
     </button>
   );
 }
-
-export default Button;
