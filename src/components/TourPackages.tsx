@@ -35,7 +35,7 @@ const tours: Tour[] = [
       "Explore Rwanda’s monarchy history at the Kings Palace Museum. See reconstructed royal residences, traditional architecture, and the famous Inyambo cattle.",
     image: "/images/palace.jpg",
     price: "$100/person",
-    duration: "Half Day"
+    duration: "Full Day"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const tours: Tour[] = [
       "Discover Rwanda’s only Big Five park. Enjoy diverse habitats including lakes, savannah, and woodlands. Spot lions, rhinos, elephants, and over 480 bird species.",
     image: "/images/akager.jpg",
     price: "$200/person",
-    duration: "2 Days"
+    duration: "Full Days"
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ const tours: Tour[] = [
       "Discover Kigali’s highlights including monuments, memorials, art galleries, and vibrant local culture.",
     image: "/images/kigali.jpg",
     price: "$20/person",
-    duration: "Half Day"
+    duration: "2-3 Hours"
   },
   {
     id: 8,
@@ -89,7 +89,7 @@ const tours: Tour[] = [
       "Trek through scenic villages with breathtaking views of Kigali and surrounding hills.",
     image: "/images/mtkigali.jpg",
     price: "$40/person",
-    duration: "Half Day"
+    duration: "3-4 Hours"
   },
   {
     id: 10,
@@ -98,7 +98,7 @@ const tours: Tour[] = [
       "Explore Rwanda’s epic scenery from Volcanoes NP to Nyungwe. Enjoy diverse trails, wildlife, and panoramic views.",
     image: "/images/hiking.jpg",
     price: "$50/person",
-    duration: "2 Days"
+    duration: "Full Day"
   }
 ];
 
