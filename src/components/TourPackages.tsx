@@ -126,7 +126,7 @@ export default function TourPackages() {
                 <DollarSign className="h-4 w-4 mr-1" /> {tour.price}
               </span>
             </div>
-            <p className="mb-4 text-gray-200 text-sm leading-relaxed">
+            <p className="mb-4 text-gray-100 text-sm leading-relaxed">
               {expanded === tour.id
                 ? tour.description
                 : `${tour.description.substring(0, 120)}...`}
