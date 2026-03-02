@@ -107,7 +107,10 @@ export default function TourPackages() {
   const [expanded, setExpanded] = useState<number | null>(null);
 
   return (
-    <section id="tours" className="section-padding">
+    <section
+      id="tours"
+      className="section-padding bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 text-gray-100"
+    >
       <h2 className="text-3xl font-bold mb-8 text-center">Our Tour Packages</h2>
       <div className="grid gap-8 md:grid-cols-3">
         {tours.map((tour) => (
