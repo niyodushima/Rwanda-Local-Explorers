@@ -27,14 +27,14 @@ const tours: Tour[] = [
     id: 3,
     title: "Kings Palace Museum - Nyanza",
     description: "Step back in time at the Kings Palace Museum in Nyanza District, the traditional seat of Rwanda's monarchy. Explore the meticulously reconstructed royal residence with its impressive traditional architecture, learn about the daily life of Rwanda's kings, and see the famous long-horned Inyambo cattle, descendants of the king's herd. This cultural treasure offers fascinating insights into Rwanda's pre-colonial history and royal traditions.",
-    image: "/images/lake-kivu.jpg",
+    image: "/images/palace.jpg",
     price: "$100/person"
   },
   {
     id: 4,
     title: "Pilgrimage to Kibeho",
     description: "Visit the sacred site of Kibeho, where the Blessed Virgin Mary appeared to three young women in 1981. Experience the spiritual atmosphere of this significant religious destination that has drawn pilgrims from around the world.",
-    image: "/images/lake-kivu.jpg",
+    image: "/images/pg.jpg",
     price: "$100/person"
   },
   {
