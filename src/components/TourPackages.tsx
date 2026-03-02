@@ -48,21 +48,21 @@ const tours: Tour[] = [
     id: 6,
     title: "Campaign Against Genocide & Richard Kandt Museums",
     description: "Visit these two significant museums in Kigali. The Campaign Against Genocide Museum showcases Rwanda's liberation struggle through powerful exhibitions and memorials, while the Richard Kandt Museum, former residence of the first German colonial resident, offers insights into Rwanda's colonial history and natural science.",
-    image: "/images/lake-kivu.jpg",
+    image: "/images/muse.jpg",
     price: "$50/person"
   },
    {
     id: 7,
     title: "Kigali City Walking Tour",
     description: "Explore Kigali's highlights including the iconic KIGALI sign monument, Kigali Heights, Belgian Peacekeeper Memorial, and vibrant local art scenes. Experience the cleanest capital in Africa with its beautiful hills, friendly locals, and modern architecture seamlessly blending with traditional elements.",
-    image: "/images/lake-kivu.jpg",
+    image: "/images/kigali.jpg",
     price: "$20/person"
   },
   {
     id: 8,
     title: "Museums of Rwanda Tour",
     description: "VVisit the Ethnographic Museum and King's Palace Museum to explore Rwanda's rich cultural heritage.",
-    image: "/images/lake-kivu.jpg",
+    image: "/images/museum.jpg",
     price: "$50/person"
   }
 ];
