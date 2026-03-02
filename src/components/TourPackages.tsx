@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Clock, DollarSign } from "lucide-react"; // ✅ icons
 
 interface Tour {
   id: number;
@@ -53,7 +54,7 @@ const tours: Tour[] = [
       "Discover Rwanda’s only Big Five park. Enjoy diverse habitats including lakes, savannah, and woodlands. Spot lions, rhinos, elephants, and over 480 bird species.",
     image: "/images/akager.jpg",
     price: "$200/person",
-    duration: "Full Days"
+    duration: "2 Days"
   },
   {
     id: 6,
@@ -117,10 +118,15 @@ export default function TourPackages() {
               className="w-full h-48 object-cover rounded-base mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">{tour.title}</h3>
-            <p className="text-sm text-gray-300 mb-2">
-              <span className="font-semibold">Duration:</span> {tour.duration}
-            </p>
-            <p className="mb-4 text-gray-200">
+            <div className="flex items-center text-gray-300 text-sm mb-2 space-x-4">
+              <span className="flex items-center">
+                <Clock className="h-4 w-4 mr-1" /> {tour.duration}
+              </span>
+              <span className="flex items-center">
+                <DollarSign className="h-4 w-4 mr-1" /> {tour.price}
+              </span>
+            </div>
+            <p className="mb-4 text-gray-200 text-sm leading-relaxed">
               {expanded === tour.id
                 ? tour.description
                 : `${tour.description.substring(0, 120)}...`}
@@ -133,7 +139,6 @@ export default function TourPackages() {
                 {expanded === tour.id ? "Show Less" : "Read More"}
               </button>
             </p>
-            <p className="font-bold text-lg mb-4">{tour.price}</p>
             <a
               href="#booking"
               className="mt-auto inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
