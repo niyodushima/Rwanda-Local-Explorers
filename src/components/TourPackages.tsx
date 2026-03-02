@@ -41,7 +41,7 @@ const tours: Tour[] = [
     id: 5,
     title: "Akagera National Park Safari",
     description: "Akagera has an inspiring conservation story as it is now home to lions and rhinos, and is the only Big Five park in the country. Just two hours' drive from Kigali, it is a beautiful and convenient savannah landscape to visit, and an easy site to add on to before or after visiting the gorillas. For one park, the diversity of habitats is unique including lakes, marshes, savannah, mountains and woodland makes for spectacular scenery. A birders delight, Akagera offers an exceptional birding experience with more than 482 bird species documented including the rare and prehistoric shoebill and some Lake Victoria endemics. Tourism is growing. A Day visitor complex with coffee shop and gift shop has been developed in the south of the park. Accommodation options are also available including the park-operated Ruzizi Tented Lodge and Karenge Bush Camp. Other options include luxurious Magashi Camp, Akagera Game lodge and four campsites. Proceeds from tourism revenue are invested back into the park and the local community.",
-    image: "/images/lake-kivu.jpg",
+    image: "/images/akager.jpg",
     price: "$200/person"
   },
   {
