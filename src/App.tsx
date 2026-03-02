@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";   // ✅ default import matches default export
+import Hero from "./components/Hero";
 import TourBookingForm from "./components/TourBookingForm";
+import TourPackages from "./components/TourPackages";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,7 +15,10 @@ function App() {
         <p className="mb-6">
           Discover Rwanda’s breathtaking landscapes, vibrant culture, and unforgettable wildlife tours.
         </p>
-        <TourBookingForm />
+        <TourPackages />
+        <div id="booking">
+          <TourBookingForm />
+        </div>
       </main>
       <Footer />
     </div>
