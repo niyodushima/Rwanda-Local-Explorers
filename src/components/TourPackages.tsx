@@ -17,7 +17,7 @@ const tours: Tour[] = [
     description:
       "Golden monkeys trekking takes place in Volcanoes National Park at 7:00 AM, similar to gorilla trekking. These endangered species live in bamboo vegetation and are very active, jumping from tree to tree. You’ll spend one hour with them once found.",
     image: "/images/golden.jpg",
-    price: "$200/person",
+    price: "200/person",
     duration: "Half Day"
   },
   {
@@ -26,7 +26,7 @@ const tours: Tour[] = [
     description:
       "Trek through Volcanoes National Park to visit the grave of Dian Fossey at Karisoke Research Center. Learn about her conservation legacy and efforts to protect mountain gorillas.",
     image: "/images/dian.jpg",
-    price: "$250/person",
+    price: "250/person",
     duration: "Full Day"
   },
   {
@@ -35,7 +35,7 @@ const tours: Tour[] = [
     description:
       "Explore Rwanda’s monarchy history at the Kings Palace Museum. See reconstructed royal residences, traditional architecture, and the famous Inyambo cattle.",
     image: "/images/palace.jpg",
-    price: "$100/person",
+    price: "100/person",
     duration: "Full Day"
   },
   {
@@ -44,7 +44,7 @@ const tours: Tour[] = [
     description:
       "Visit the sacred site of Kibeho, known for Marian apparitions in 1981. Experience its spiritual atmosphere and significance as a global pilgrimage destination.",
     image: "/images/pg.jpg",
-    price: "$100/person",
+    price: "100/person",
     duration: "Full Day"
   },
   {
@@ -53,7 +53,7 @@ const tours: Tour[] = [
     description:
       "Discover Rwanda’s only Big Five park. Enjoy diverse habitats including lakes, savannah, and woodlands. Spot lions, rhinos, elephants, and over 480 bird species.",
     image: "/images/akager.jpg",
-    price: "$200/person",
+    price: "200/person",
     duration: "2 Days"
   },
   {
@@ -62,7 +62,7 @@ const tours: Tour[] = [
     description:
       "Learn Rwanda’s liberation history at the Campaign Against Genocide Museum and explore colonial history at Richard Kandt Museum.",
     image: "/images/muse.jpg",
-    price: "$50/person",
+    price: "50/person",
     duration: "Half Day"
   },
   {
@@ -71,7 +71,7 @@ const tours: Tour[] = [
     description:
       "Discover Kigali’s highlights including monuments, memorials, art galleries, and vibrant local culture.",
     image: "/images/kigali.jpg",
-    price: "$20/person",
+    price: "20/person",
     duration: "2-3 Hours"
   },
   {
@@ -80,7 +80,7 @@ const tours: Tour[] = [
     description:
       "Visit the Ethnographic Museum and King’s Palace Museum to explore Rwanda’s rich cultural heritage.",
     image: "/images/museum.jpg",
-    price: "$50/person",
+    price: "50/person",
     duration: "Full Day"
   },
   {
@@ -89,7 +89,7 @@ const tours: Tour[] = [
     description:
       "Trek through scenic villages with breathtaking views of Kigali and surrounding hills.",
     image: "/images/mtkigali.jpg",
-    price: "$40/person",
+    price: "40/person",
     duration: "3-4 Hours"
   },
   {
@@ -98,7 +98,7 @@ const tours: Tour[] = [
     description:
       "Explore Rwanda’s epic scenery from Volcanoes NP to Nyungwe. Enjoy diverse trails, wildlife, and panoramic views.",
     image: "/images/hiking.jpg",
-    price: "$50/person",
+    price: "50/person",
     duration: "Full Day"
   }
 ];
