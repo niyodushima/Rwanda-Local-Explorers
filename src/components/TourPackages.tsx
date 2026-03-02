@@ -61,8 +61,22 @@ const tours: Tour[] = [
   {
     id: 8,
     title: "Museums of Rwanda Tour",
-    description: "VVisit the Ethnographic Museum and King's Palace Museum to explore Rwanda's rich cultural heritage.",
+    description: "Visit the Ethnographic Museum and King's Palace Museum to explore Rwanda's rich cultural heritage.",
     image: "/images/museum.jpg",
+    price: "$50/person"
+  },
+  {
+    id: 9,
+    title: "Mount Kigali Hiking Adventure",
+    description: "Trek through scenic villages with breathtaking views of Kigali and surrounding areas.",
+    image: "/images/mtkigali.jpg",
+    price: "$40/person"
+  },
+ {
+    id: 10,
+    title: "Rwanda Mountain Hiking Experience",
+    description: "Rwanda's epic scenery, pleasant climate and magnificent wildlife make the land a remarkable place to explore on foot. The best hiking to be had is in the western half of the country, all the way from Volcanoes National Park in the north, along the fringes of Lake Kivu in the west and down to Nyungwe National Park in the south.",
+    image: "/images/hiking.jpg",
     price: "$50/person"
   }
 ];
