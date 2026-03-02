@@ -19,9 +19,7 @@ const tours: Tour[] = [
   {
     id: 2,
     title: "Dian Fossey Tomb",
-    description: "Visit the grave of the legendary primatologist Dian Fossey, whose work with mountain gorillas was immortalized in the film 'Gorillas in the Mist'. This trek takes you through the beautiful Volcanoes National Park to her research center, Karisoke, and to her final resting place among the gorillas she loved and protected. Learn about her remarkable conservation legacy and the continuing efforts to protect these magnificent creatures.
-
-",
+    description: "Visit the grave of the legendary primatologist Dian Fossey, whose work with mountain gorillas was immortalized in the film 'Gorillas in the Mist'. This trek takes you through the beautiful Volcanoes National Park to her research center, Karisoke, and to her final resting place among the gorillas she loved and protected. Learn about her remarkable conservation legacy and the continuing efforts to protect these magnificent creatures.",
     image: "/images/dian.jpg",
     price: "$250/person"
   },
