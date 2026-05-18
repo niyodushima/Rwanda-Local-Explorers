@@ -17,7 +17,7 @@ const tours: Tour[] = [
     description:
       "Golden monkeys trekking takes place in Volcanoes National Park at 7:00 AM, similar to gorilla trekking. These endangered species live in bamboo vegetation and are very active, jumping from tree to tree. You’ll spend one hour with them once found.",
     image: "/images/golden.jpg",
-    price: "200/person",
+    price: "449/person",
     duration: "Half Day"
   },
   {
